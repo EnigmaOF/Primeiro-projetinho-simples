@@ -1,0 +1,39 @@
+//Parte Html e css
+<!DOCTYPE html>
+<html lang="pt-br" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+  <style>
+      body{
+        font: normal 20pt Arial;
+      }
+     
+  </style>
+</head>
+<body>
+    <h1>Ola Mundo </h1>
+    <p> Já me livrei da maldição </p>
+    <script src="01.Js" >
+     </script>
+     
+   
+   
+</body>
+</html> 
+
+
+
+//Parte do Java Script
+var nome = window.prompt("Qual seu nome")
+document.write(`Que belo nome ${nome}<b/>`)
+document.write(`Ola ${nome}  seu nome tem ${nome.length} letras<br/>`)
+document.write(`Seu nome em maiusculas e ${nome.toUpperCase() }<br/>`)
+document.write(`Seu nome em minusculo e ${nome.toLowerCase()}<br/>`)
+
+
+var n1 = Number(window.prompt("Fale um numero!"))
+var n2 = Number(window.prompt("Fale outro numero!"))
+var s = n1 + n2
+document.write(`O resultado de ${n1} + ${n2} = ${s}`)
